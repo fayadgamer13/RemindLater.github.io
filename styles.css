@@ -6,6 +6,10 @@
   font-display: swap;
 }
 
+.btn-text{ font-family: "SpaceMonoLocal", monospace; }
+
+}
+
 :root{
   --bg: #d8ff00; /* bright lime similar to provided image */
   --text: #0b0b0b;
@@ -62,6 +66,7 @@ body{
 
 .download-btn .btn-android{width:20px;height:20px;filter:invert(1) brightness(2)}
 .download-btn:active{transform:translateY(1px)}
+
 
 /* THANKS PAGE */
 .thanks{align-items:center;justify-content:center;text-align:center;padding:40px}
